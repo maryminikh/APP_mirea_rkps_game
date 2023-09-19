@@ -11,12 +11,11 @@
 build:
 	webpack --mode production
 
-
 # для виндоус в exe, для линукс какой удобно
 
 
-#start:
-#	npm start
+start:
+	electron .
 
 
 #node_modules:
