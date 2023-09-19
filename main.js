@@ -1,11 +1,11 @@
 "use strict";
 
-// todo подключение ThreeJS
-var THREE = require('three');
-var css = require("./src/css/main.css");
-
 // для сборки app
-const { app, BrowserWindow } = require('electron')
+const { app, BrowserWindow } = require('electron');
+
+app.whenReady().then(() => {
+    createWindow();
+})
 
 const createWindow = () => {
     const win = new BrowserWindow({
@@ -163,9 +163,7 @@ async function Question() {
     }
 }
 
-app.whenReady().then(() => {
-    createWindow()
-})
+
 
 async function main() {
 

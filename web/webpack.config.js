@@ -1,6 +1,9 @@
 var HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
+  resolve: {
+    extensions: [".js"],
+  },
   entry: './src/index.js',
   output: {
     filename: "main.js"
