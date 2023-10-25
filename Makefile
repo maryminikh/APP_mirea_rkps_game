@@ -7,6 +7,9 @@
  # Цель по умолчанию
  all: build
 
+#node_modules:
+#    npm install
+
  # Сборка проекта через webpack
 build:
 	webpack --mode production
@@ -15,12 +18,11 @@ build:
 # для виндоус в exe, для линукс какой удобно
 
 
-#start:
-#	npm start
+start:
+	npm start
 
 
-#node_modules:
-#    npm install
+
 
 # # Запуск линтера
 # lint:
