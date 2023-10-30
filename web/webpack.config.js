@@ -38,8 +38,8 @@ module.exports = {
   plugins: [
     // Скопируем наш index.html в папку dist
     new HtmlWebpackPlugin({
-      template: "./index.html",
-      filename: "./index.html"
+      template: "../index.html",
+      filename: "../index.html"
     })
   ]
 };
